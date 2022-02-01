@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 yellow_tripdata_2021-01.csv
+week2/terraform_gcp/.terraform/
+*.tfstate
+*.hcl
