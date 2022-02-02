@@ -68,6 +68,7 @@ x-airflow-common:
     - ~/dev/repos/de-zoomcamp-work/week2/airflow/logs:/opt/airflow/logs
     - ~/dev/repos/de-zoomcamp-work/week2/airflow/plugins:/opt/airflow/plugins
     - ~/.google/credentials/:/.google/credentials:ro
+    - ~/Downloads/nytaxi/:/opt/nytaxi_data
 
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
