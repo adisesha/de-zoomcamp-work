@@ -4,7 +4,7 @@ locals {
 
 variable "project" {
   type = string
-  default = "dtc-de-course-338806"
+  default = "de-course-340610"
 }
 
 variable "region" {
