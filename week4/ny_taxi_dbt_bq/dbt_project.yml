@@ -40,7 +40,7 @@ models:
           materialized: table
 vars:
   payment_type_values: [1, 2, 3, 4, 5, 6]
-  is_test_run: true
+  is_test_run: false
 
 seeds: 
     taxi_rides_ny:
