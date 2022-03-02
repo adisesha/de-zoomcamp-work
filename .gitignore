@@ -131,3 +131,6 @@ yellow_tripdata_2021-01.csv
 week2/terraform_gcp/.terraform/
 *.tfstate
 *.hcl
+week5/fhvhv_tripdata_2021-02.csv
+week5/head.csv
+week5/fhvhv/2021/02/*
